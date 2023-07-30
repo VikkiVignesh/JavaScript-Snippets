@@ -1,7 +1,7 @@
 var i=0;
 for(;i<100;i++)
 {
-    if(i%3==0)
+    /*if(i%3==0)
     {
         console.log("Fizz");
     }
@@ -13,5 +13,8 @@ for(;i<100;i++)
     {
         console.log("FizzBuzz");
     }
-    console.log(i);
+    console.log(i);*/
+
+    var res=(i%3==0 && i%5==0) ? "FizzBuzz":(i%5==0)?"Buzz":(i%3==0)?"Fizz":i;
+    console.log(res);
 }
