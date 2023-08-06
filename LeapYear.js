@@ -1,3 +1,9 @@
+/*
+1.For every 4 years once ,leap year appers.
+2.Leap year is evenly divisible by 100
+3.unless it is divisible by 400 also its a leap year
+*/ 
+
 function checkLeap(n)
 {
     var str=false;
