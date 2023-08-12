@@ -1,5 +1,4 @@
 //Rest Operator is used when we do not know how many parm we are passing
-
 var sum=(...args)=>{
     res=0;
     for(var i=0;i<args.length;i++)
